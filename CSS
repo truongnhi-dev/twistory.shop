@@ -1,0 +1,27 @@
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+}
+.hero {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 60px 20px;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 20px;
+  padding: 40px 20px;
+}
+.product img {
+  width: 100%;
+}
+.product button {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
