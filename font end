@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twistory Concept Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="navbar">
+    <div class="logo">Twistory</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Trang chủ</a></li>
+        <li><a href="#about">Giới thiệu</a></li>
+        <li><a href="#gallery">Bộ sưu tập</a></li>
+        <li><a href="#contact">Liên hệ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hành trình qua thời gian</h1>
+      <p>Câu chuyện về con người, ký ức và khoảnh khắc.</p>
+      <a href="#about" class="btn">Khám phá ngay</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>Giới thiệu</h2>
+      <p>
+        Twistory là một dự án nghệ thuật ghi lại lịch sử qua lăng kính cảm xúc con người. 
+        Chúng tôi kể lại những câu chuyện nhỏ — nhưng mang giá trị lớn lao về ký ức và bản sắc.
+      </p>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery">
+    <h2>Bộ sưu tập</h2>
+    <div class="gallery-grid">
+      <img src="images/photo1.jpg" alt="Ảnh 1">
+      <img src="images/photo2.jpg" alt="Ảnh 2">
+      <img src="images/photo3.jpg" alt="Ảnh 3">
+      <img src="images/photo4.jpg" alt="Ảnh 4">
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Liên hệ</h2>
+    <p>Hợp tác hoặc chia sẻ câu chuyện của bạn cùng chúng tôi.</p>
+    <a href="mailto:contact@twistory.vn" class="btn">Gửi email</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Twistory Project. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
